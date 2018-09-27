@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+
+/* https://codeitdown.com/responsive-font-size-css/ */
+html {
+  font-size: 20px;
+}
+
+.unbehaved-element {
+  font-size: 2em;
+}
+
+@media(max-width: 1580px) {
+  html {
+    font-size: 18px;
+  }
+  .unbehaved-element {
+    font-size: 1.9em;
+    /* Fine tune unbehaved elements */
+  }
+}
+
+@media(max-width: 533px) {
+  html {
+    font-size: 13px;
+  }
+}
