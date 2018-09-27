@@ -5,7 +5,7 @@ const ImageInputForm = (props) => {
     const { onInputChange, onImageSubmitted, input } = props;
     return (
         <div>
-            <p>Please enter the url of an image that contains faces below</p>
+            <p>Please enter the url of an image that contains at least a face below</p>
             <div className='center'>
                 <div className='ImageInputForm_background pa4 br3 shadow-5'>
                     <input
